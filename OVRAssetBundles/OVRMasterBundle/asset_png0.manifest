@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 2099399060
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0a3ad64dbc712eb36d6cabcb9ca9e006
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0a3ad64dbc712eb36d6cabcb9ca9e006
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Packages/com.meta.xr.sdk.core/Textures/MetaQuestTouchPlus/MetaQuestTouchPlus_Normals.png
+- Packages/com.meta.xr.sdk.core/Textures/MetaQuestTouchPlus/MetaQuestTouchPlus_Metallic.png
+- Packages/com.meta.xr.sdk.core/Textures/HandTracking/HandTracking_uvmap_2048.png
+- Packages/com.meta.xr.sdk.core/Textures/MetaQuestTouchPlus/MetaQuestTouchPlus_Left_BaseColor_AO_AlphaRoughness.png
+- Packages/com.meta.xr.sdk.core/Textures/MetaQuestTouchPlus/MetaQuestTouchPlus_Right_BaseColor_AO_AlphaRoughness.png
+- Packages/com.meta.xr.sdk.core/Textures/MetaQuestTouchPro/controller_l_lo_Normal.png
+- Packages/com.meta.xr.sdk.core/Textures/OculusTouchForRift/touchController_albedo.png
+- Packages/com.meta.xr.sdk.core/Textures/MetaQuestTouchPro/controller_r_lo_Normal.png
+- Packages/com.meta.xr.sdk.core/Textures/MetaQuestTouchPro/controller_r_lo_BaseColor.png
+- Packages/com.meta.xr.sdk.core/Textures/MetaQuestTouchPro/controller_l_lo_BaseColor.png
+- Packages/com.meta.xr.sdk.core/Textures/MetaQuestTouchPro/batteryIndicatorTexture32.png
+Dependencies: []

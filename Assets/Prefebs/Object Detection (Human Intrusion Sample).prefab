@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3689361018803427068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1797742579062420943}
+  - component: {fileID: 7239451802305993994}
+  - component: {fileID: 6599052076406930966}
+  - component: {fileID: 3260566869586017834}
+  - component: {fileID: 1380523659229835209}
+  - component: {fileID: 8891507553310781418}
+  - component: {fileID: 7449653337643521023}
+  m_Layer: 0
+  m_Name: Object Detection (Human Intrusion Sample)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1797742579062420943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3689361018803427068}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7239451802305993994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3689361018803427068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51d280da22e69449c83fb42609335105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sentisModel: {fileID: 5022602860645237092, guid: 437372f7f3502304a9908210aee5b332, type: 3}
+  backend: 512
+  inferenceInterval: 0.1
+  kLayersPerFrame: 20
+  webCamTextureManager: {fileID: 0}
+  objectRenderer: {fileID: 6599052076406930966}
+--- !u!114 &6599052076406930966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3689361018803427068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311152bad71ab4a5c9814f979281e2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  webCamTextureManager: {fileID: 0}
+  envRaycastManager: {fileID: 3260566869586017834}
+  mergeThreshold: 0.2
+  markerPrefab: {fileID: 6669015522134640172, guid: b35cf966a40234174ba3e922a31b399c, type: 3}
+  labelFilters: 3f000000000000003e000000420000001a0000001c00000027000000290000002c0000002d0000003100000038000000390000003b00000040000000440000004500000048000000
+--- !u!114 &3260566869586017834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3689361018803427068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8affdff7ba47d892cc734baac9ac71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1380523659229835209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3689361018803427068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a155ece80369d4e99bdaf5e59169b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _occlusionShadersMode: 2
+  _removeHands: 0
+  CustomTrackingSpace: {fileID: 0}
+  <MaskMeshFilters>k__BackingField: []
+  _cameraRig: {fileID: 0}
+--- !u!114 &8891507553310781418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3689361018803427068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4656ffde2953d425ca020284c599cf24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerPrefab: {fileID: 6669015522134640172, guid: b35cf966a40234174ba3e922a31b399c, type: 3}
+  poolSize: 4
+--- !u!114 &7449653337643521023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3689361018803427068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231ddf384124c80458865052a96640c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,93 @@
+ManifestFileVersion: 0
+CRC: 249256188
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: de098d9a99ab3ed0ae3bb8b57a651bce
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2972e0621f012784ded98d055e84eca8
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: de098d9a99ab3ed0ae3bb8b57a651bce
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4703bbcfd68ed094a8f0df2630128e51, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cb7623a8f0b49cf4dbaa40aea4d4be64, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 54c16b381e28e8d479237771d234dbae, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 73eac66b128fc8749a21623225c34541, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: de27d7f2f20024e18898941292d6c164, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5cc5c234723e3a54d8dd09b131117743, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c012117ea5bda8c44bb9ac2ed6003b28, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 555725d48e9051a4bb6b8d45178c2fdd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e76943ac7e7394f3e969f0c048b26639, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 093b4031c300bd241849c0c39523b111, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9caf9f6f20318f94e92d0a9cc06afa46, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2609c54f376cffc4da1ab9401cc1a36f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aed62bf3ae2456c408f247f96808ce96, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Scene/MRUK_Test.unity
+Dependencies:
+- D:/e-diploma/Context-Aware-Generate-and-Place/OVRAssetBundles/OVRMasterBundle/asset_prefab0

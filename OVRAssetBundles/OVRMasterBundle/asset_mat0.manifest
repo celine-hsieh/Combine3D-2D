@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 3588767199
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fc119c539e379804b8af2b8ba0c1edcf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b30fce1a9ad74efb72be6c308c56e365
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: fc119c539e379804b8af2b8ba0c1edcf
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForQuestAndRiftS/Materials/OculusTouchForQuestAndRiftS_Material.mat
+- Packages/com.meta.xr.sdk.core/Materials/BasicHandMaterial.mat
+- Packages/com.meta.xr.mrutilitykit/Core/Materials/PURPLE_Storage.mat
+- Packages/com.meta.xr.mrutilitykit/Core/Materials/Wireframe.mat
+- Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPlus/Materials/MetaQuestTouchPlusMATphong_left.mat
+- Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPro/Materials/MetaQuestProLeft_Material.mat
+- Packages/com.meta.xr.mrutilitykit/Core/Materials/BLACK_Window.mat
+- Packages/com.meta.xr.mrutilitykit/Core/Materials/PINK_Bed.mat
+- Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForRift/Materials/OculusTouchForRift_Material.mat
+- Packages/com.meta.xr.mrutilitykit/Core/Materials/RED_Couch.mat
+- Packages/com.meta.xr.mrutilitykit/Core/Materials/DARKGRAY_WallArt.mat
+- Packages/com.meta.xr.mrutilitykit/Core/Materials/BLUE_Table.mat
+- Packages/com.meta.xr.mrutilitykit/Core/Materials/GREEN_Plant.mat
+- Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPro/Materials/batteryIndicator_mat.mat
+- Packages/com.meta.xr.mrutilitykit/Core/Materials/GRAY_Wall.mat
+- Packages/com.meta.xr.mrutilitykit/Core/Materials/RoomBoxEffects.mat
+- Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForQuest2/Materials/OculusTouchForQuest2_MAT.mat
+- Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPlus/Materials/MetaQuestTouchPlusMATphong_right.mat
+- Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPro/Materials/MetaQuestProRight_Material.mat
+- Packages/com.meta.xr.mrutilitykit/Core/Materials/ORANGE_Lamp.mat
+- Packages/com.meta.xr.mrutilitykit/Core/Materials/BROWN_Door.mat
+- Packages/com.meta.xr.mrutilitykit/Core/Materials/YELLOW_Screen.mat
+- Packages/com.meta.xr.mrutilitykit/Core/Materials/WHITE_Other.mat
+Dependencies:
+- D:/e-diploma/Context-Aware-Generate-and-Place/OVRAssetBundles/OVRMasterBundle/asset_png0
+- D:/e-diploma/Context-Aware-Generate-and-Place/OVRAssetBundles/OVRMasterBundle/asset_shader0
+- D:/e-diploma/Context-Aware-Generate-and-Place/OVRAssetBundles/OVRMasterBundle/asset_tga0

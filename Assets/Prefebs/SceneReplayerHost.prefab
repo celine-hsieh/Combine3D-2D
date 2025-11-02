@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5860065178318763336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4860998563135597835}
+  - component: {fileID: 678669045756317878}
+  m_Layer: 0
+  m_Name: SceneReplayerHost
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4860998563135597835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5860065178318763336}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.012519836, y: -0.40045762, z: 0.9971055}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &678669045756317878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5860065178318763336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b04cd5231575f5479902decb5fbf947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logAllAtStartup: 1
+  spawnLiveMarkers: 0
+  maxMarkers: 50
+  jsonPath: RegionDumps/mruk_dump_20251101_200909_e6b4db05a31e417ea033e7affdeb40e4.json
+  jsonAsset: {fileID: 0}
+  autoLoadOnStart: 1
+  addMeshCollider: 1
+  gizmoNormalLength: 0.12
+  usePlaneFrameRotation: 1
+  autoAlignToLiveRoom: 1
+  alignLabelPriority:
+  - WALL_FACE
+  - DOOR_FRAME
+  - WINDOW_FRAME
+  - FLOOR
+  - TABLE
+  defaultMat: {fileID: 2100000, guid: 599b01c5f1d17436c89b88cc04257314, type: 2}
+  floorMat: {fileID: 2100000, guid: 599b01c5f1d17436c89b88cc04257314, type: 2}
+  wallMat: {fileID: 2100000, guid: 599b01c5f1d17436c89b88cc04257314, type: 2}
+  tableMat: {fileID: 2100000, guid: 599b01c5f1d17436c89b88cc04257314, type: 2}
+  screenMat: {fileID: 2100000, guid: 599b01c5f1d17436c89b88cc04257314, type: 2}

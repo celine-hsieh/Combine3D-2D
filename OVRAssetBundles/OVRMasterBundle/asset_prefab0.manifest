@@ -1,0 +1,103 @@
+ManifestFileVersion: 0
+CRC: 1894279643
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3f98a6389ae95931b527864d68442798
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2efe96001edae301db4daec06beb809d
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3f98a6389ae95931b527864d68442798
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cb7623a8f0b49cf4dbaa40aea4d4be64, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 54c16b381e28e8d479237771d234dbae, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 73eac66b128fc8749a21623225c34541, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: de27d7f2f20024e18898941292d6c164, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5cc5c234723e3a54d8dd09b131117743, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e76943ac7e7394f3e969f0c048b26639, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 093b4031c300bd241849c0c39523b111, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2609c54f376cffc4da1ab9401cc1a36f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aed62bf3ae2456c408f247f96808ce96, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Oculus.VR
+  ClassName: OVRAnchor/TrackerConfiguration
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent`1[Meta.XR.MRUtilityKit.MRUKRoom]
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent`1[Meta.XR.MRUtilityKit.MRUKTrackable]
+- AssemblyName: meta.xr.mrutilitykit
+  ClassName: Meta.XR.MRUtilityKit.EffectMesh/TextureCoordinateModes
+- AssemblyName: meta.xr.mrutilitykit
+  ClassName: Meta.XR.MRUtilityKit.MRUK/MRUKSettings
+Assets:
+- Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/LivingRoom/LivingRoom05.prefab
+- Packages/com.meta.xr.mrutilitykit/Core/Tools/ImmersiveSceneDebugger.prefab
+- Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/LivingRoom/LivingRoom01.prefab
+- Packages/com.meta.xr.sdk.core/Prefabs/OVRHandPrefab.prefab
+- Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Office/Office08.prefab
+- Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/LivingRoom/LivingRoom07.prefab
+- Packages/com.meta.xr.mrutilitykit/Core/Tools/EffectMesh.prefab
+- Packages/com.meta.xr.mrutilitykit/Core/Tools/MRUK.prefab
+- Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Bedroom/Bedroom00.prefab
+- Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Office/Office09.prefab
+- Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Bedroom/Bedroom06.prefab
+- Packages/com.meta.xr.sdk.core/Prefabs/OVRCameraRig.prefab
+- Packages/com.meta.xr.sdk.core/Prefabs/OVRControllerPrefab.prefab
+- Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/LivingRoom/LivingRoom02.prefab
+- Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Other/OtherRoom04_empty.prefab
+- Packages/com.meta.xr.mrutilitykit/Core/Rooms/Prefabs/Bedroom/Bedroom03.prefab
+Dependencies:
+- D:/e-diploma/Context-Aware-Generate-and-Place/OVRAssetBundles/OVRMasterBundle/asset_controller0
+- D:/e-diploma/Context-Aware-Generate-and-Place/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- D:/e-diploma/Context-Aware-Generate-and-Place/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- D:/e-diploma/Context-Aware-Generate-and-Place/OVRAssetBundles/OVRMasterBundle/asset_shader0
